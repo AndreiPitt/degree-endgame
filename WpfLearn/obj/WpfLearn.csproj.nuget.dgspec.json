@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gf0sg\\Desktop\\sharp\\degree-endgame\\WpfLearn\\WpfLearn.csproj": {}
+    "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\WpfLearn\\WpfLearn.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gf0sg\\Desktop\\sharp\\degree-endgame\\WpfLearn\\WpfLearn.csproj": {
+    "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\WpfLearn\\WpfLearn.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gf0sg\\Desktop\\sharp\\degree-endgame\\WpfLearn\\WpfLearn.csproj",
+        "projectUniqueName": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\WpfLearn\\WpfLearn.csproj",
         "projectName": "WpfLearn",
-        "projectPath": "C:\\Users\\gf0sg\\Desktop\\sharp\\degree-endgame\\WpfLearn\\WpfLearn.csproj",
+        "projectPath": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\WpfLearn\\WpfLearn.csproj",
         "packagesPath": "C:\\Users\\gf0sg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gf0sg\\Desktop\\sharp\\degree-endgame\\WpfLearn\\obj\\",
+        "outputPath": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\WpfLearn\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

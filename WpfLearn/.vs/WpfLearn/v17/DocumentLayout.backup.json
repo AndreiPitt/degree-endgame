@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gf0sg\\Desktop\\sharp\\degree-endgame\\WpfLearn\\",
+  "WorkspaceRootPath": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\WpfLearn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|c:\\users\\gf0sg\\desktop\\sharp\\degree-endgame\\wpflearn\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|c:\\users\\gf0sg\\desktop\\licenta\\sharp\\degree-endgame\\wpflearn\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|solutionrelative:view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|c:\\users\\gf0sg\\desktop\\sharp\\degree-endgame\\wpflearn\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|c:\\users\\gf0sg\\desktop\\licenta\\sharp\\degree-endgame\\wpflearn\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|c:\\users\\gf0sg\\desktop\\licenta\\sharp\\degree-endgame\\wpflearn\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|c:\\users\\gf0sg\\desktop\\licenta\\sharp\\degree-endgame\\wpflearn\\viewmodel\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|solutionrelative:viewmodel\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|c:\\users\\gf0sg\\desktop\\licenta\\sharp\\degree-endgame\\wpflearn\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +30,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\gf0sg\\Desktop\\sharp\\degree-endgame\\WpfLearn\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\gf0sg\\Desktop\\sharp\\degree-endgame\\WpfLearn\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-20T05:29:15.309Z",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\WpfLearn\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\WpfLearn\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T05:32:27.977Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\gf0sg\\Desktop\\sharp\\degree-endgame\\WpfLearn\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\gf0sg\\Desktop\\sharp\\degree-endgame\\WpfLearn\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\WpfLearn\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\WpfLearn\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-27T05:23:50.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\WpfLearn\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "View\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\WpfLearn\\View\\MainWindow.xaml*",
+              "RelativeToolTip": "View\\MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-27T05:22:09.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\WpfLearn\\ViewModel\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\UserViewModel.cs",
+              "ToolTip": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\WpfLearn\\ViewModel\\UserViewModel.cs",
+              "RelativeToolTip": "ViewModel\\UserViewModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T05:29:12.689Z"
+              "WhenOpened": "2026-02-27T05:11:06.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\WpfLearn\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\WpfLearn\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T05:00:39.813Z",
+              "EditorCaption": ""
             }
           ]
         }

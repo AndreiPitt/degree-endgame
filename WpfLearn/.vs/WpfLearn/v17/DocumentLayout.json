@@ -1,30 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gf0sg\\Desktop\\sharp\\degree-endgame\\WpfLearn\\",
+  "WorkspaceRootPath": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\WpfLearn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|c:\\users\\gf0sg\\desktop\\sharp\\degree-endgame\\wpflearn\\models\\roomid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|solutionrelative:models\\roomid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|c:\\users\\gf0sg\\desktop\\licenta\\sharp\\degree-endgame\\wpflearn\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|solutionrelative:view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|c:\\users\\gf0sg\\desktop\\sharp\\degree-endgame\\wpflearn\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|solutionrelative:models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|c:\\users\\gf0sg\\desktop\\licenta\\sharp\\degree-endgame\\wpflearn\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|c:\\users\\gf0sg\\desktop\\sharp\\degree-endgame\\wpflearn\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|solutionrelative:models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|c:\\users\\gf0sg\\desktop\\licenta\\sharp\\degree-endgame\\wpflearn\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|solutionrelative:view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|c:\\users\\gf0sg\\desktop\\sharp\\degree-endgame\\wpflearn\\models\\reservationbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|solutionrelative:models\\reservationbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|c:\\users\\gf0sg\\desktop\\licenta\\sharp\\degree-endgame\\wpflearn\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|c:\\users\\gf0sg\\desktop\\sharp\\degree-endgame\\wpflearn\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|c:\\users\\gf0sg\\desktop\\sharp\\degree-endgame\\wpflearn\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|c:\\users\\gf0sg\\desktop\\licenta\\sharp\\degree-endgame\\wpflearn\\viewmodel\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA8C96F5-8DF9-487B-81E8-BC5ED2041740}|WpfLearn.csproj|solutionrelative:viewmodel\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,83 +30,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RoomID.cs",
-              "DocumentMoniker": "C:\\Users\\gf0sg\\Desktop\\sharp\\degree-endgame\\WpfLearn\\Models\\RoomID.cs",
-              "RelativeDocumentMoniker": "Models\\RoomID.cs",
-              "ToolTip": "C:\\Users\\gf0sg\\Desktop\\sharp\\degree-endgame\\WpfLearn\\Models\\RoomID.cs",
-              "RelativeToolTip": "Models\\RoomID.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\WpfLearn\\View\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "View\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\WpfLearn\\View\\MainWindow.xaml.cs",
+              "RelativeToolTip": "View\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T10:19:04.254Z",
+              "WhenOpened": "2026-02-27T05:38:24.263Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ReservationBook.cs",
-              "DocumentMoniker": "C:\\Users\\gf0sg\\Desktop\\sharp\\degree-endgame\\WpfLearn\\Models\\ReservationBook.cs",
-              "RelativeDocumentMoniker": "Models\\ReservationBook.cs",
-              "ToolTip": "C:\\Users\\gf0sg\\Desktop\\sharp\\degree-endgame\\WpfLearn\\Models\\ReservationBook.cs",
-              "RelativeToolTip": "Models\\ReservationBook.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\WpfLearn\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\WpfLearn\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T10:18:55.433Z",
+              "WhenOpened": "2026-02-27T05:32:27.977Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Reservation.cs",
-              "DocumentMoniker": "C:\\Users\\gf0sg\\Desktop\\sharp\\degree-endgame\\WpfLearn\\Models\\Reservation.cs",
-              "RelativeDocumentMoniker": "Models\\Reservation.cs",
-              "ToolTip": "C:\\Users\\gf0sg\\Desktop\\sharp\\degree-endgame\\WpfLearn\\Models\\Reservation.cs",
-              "RelativeToolTip": "Models\\Reservation.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAUwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T10:18:45.503Z",
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\WpfLearn\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\WpfLearn\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-27T05:23:50.568Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Hotel.cs",
-              "DocumentMoniker": "C:\\Users\\gf0sg\\Desktop\\sharp\\degree-endgame\\WpfLearn\\Models\\Hotel.cs",
-              "RelativeDocumentMoniker": "Models\\Hotel.cs",
-              "ToolTip": "C:\\Users\\gf0sg\\Desktop\\sharp\\degree-endgame\\WpfLearn\\Models\\Hotel.cs",
-              "RelativeToolTip": "Models\\Hotel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T10:18:10.089Z",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\WpfLearn\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "View\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\WpfLearn\\View\\MainWindow.xaml",
+              "RelativeToolTip": "View\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-27T05:22:09.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\gf0sg\\Desktop\\sharp\\degree-endgame\\WpfLearn\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\gf0sg\\Desktop\\sharp\\degree-endgame\\WpfLearn\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-20T05:29:15.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\gf0sg\\Desktop\\sharp\\degree-endgame\\WpfLearn\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\gf0sg\\Desktop\\sharp\\degree-endgame\\WpfLearn\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\WpfLearn\\ViewModel\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\UserViewModel.cs",
+              "ToolTip": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\WpfLearn\\ViewModel\\UserViewModel.cs",
+              "RelativeToolTip": "ViewModel\\UserViewModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T05:29:12.689Z"
+              "WhenOpened": "2026-02-27T05:11:06.315Z",
+              "EditorCaption": ""
             }
           ]
         }
