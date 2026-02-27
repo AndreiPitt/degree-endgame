@@ -1,0 +1,44 @@
+Structură logică a aplicației
+- Panou de configurare (canale, scale, trigger).
+- Zona principală de afișare a graficului.
+- Panou lateral cu măsurători automate (Vpp, RMS, frecventa)
+- Panou de achiziție si partea de stare (start/stop)(status: connected / disconnnected /Acquiring ).
+- Bara de meniu (File, Settings, Help).
+
+Afișarea semnalului functionalitati
+- Grafic în timp real (minim 10–20 FPS).
+- Zoom și pan cu mouse-ul.
+- Afișarea cursorilor (verticali/orizontali).
+- Linie de timp clară și scalare automată.
+- Afișarea valorilor în timp real.
+
+ Elemente de UX obligatorii
+- Feedback vizual la acțiuni (ex. butonul Start devine Stop).
+- Indicator de status (Connected / Disconnected / Acquiring).
+- Mesaje de eroare clare și prietenoase.
+- Tooltips pentru controale.
+
+  Arhitectura aplicației (MVVM):
+- Modul de comunicare (serial handler).  --> SerialService
+- Modul de protocol (interpretarea comenzilor și pachetelor). -->ProtocolParser
+- Modul de procesare (conversii, măsurători). --> AcquisitionEngine
+- Modul de măsurători / calcule automate --> MeasurementEngine
+- Modul de grafică (plotter dedicat). --> PlotViewModel
+- Modul de  logica UI (ferestre, controale). --> MainViewModel 
+- Views (WPF) (ferestre si controale)
+- Modul de logging.
+
+
+ Partea teoretică din lucrare (capitole)
+
+- Introducere în osciloscoape digitale.
+- Prezentarea Cleverscope (model, specificații).
+- Descrierea protocolului serial folosit.
+- Arhitectura software propusă.
+- Principii de UI/UX aplicate.
+- Testare și validare.
+- Concluzii și posibile îmbunătățiri.
+
+
+
+

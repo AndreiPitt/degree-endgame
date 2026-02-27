@@ -1,0 +1,27 @@
+dometrain - degree-endgame2026
+
+Multithreding
+Clean code
+Usercontrol (customizat)
+UI/UX (Telerik)
+Remote: NI-VISA 
+
+
+🔹 C#
+OOP
+Multithreding
+async/await
+SerialPort
+
+
+🔹 WPF
+XAML si layout
+MVVM simplu
+Controale UI
+Binding
+DataGrid / chart
+
+🔹 Comunicare hardware
+Cum trimiți comenzi
+Cum primești răspuns
+Protocol request–response
