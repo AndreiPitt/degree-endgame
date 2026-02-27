@@ -1,0 +1,31 @@
+	1. Tabloul de bord (Dashboard)
+Aceasta este inima aplicației. În loc de tabele din în Excel:
+
+-Quick Entry: Un formular mic pentru greutatea de azi și kcal din Eat&Track.
+-Smart Date: Un DatePicker care se pune automat pe ziua de azi, dar care îți permite să treci datele și dacă ai uitat să le pui ieri.
+-Buton de Salvare: Care să valideze datele (să nu fie text în loc de cifre) și să le scrie în fișierul JSON.
+
+-Câmpuri pentru măsurători: Input dedicat pentru talie.
+-Uploader Foto: Trei sloturi (Față, Spate, Profil) care să salveze pozele într-un folder local cu data în nume.
+
+
+	2. Vizualizare Progres (The "UX" Factor) LiveCharts2
+Grafic Greutate vs. Talie: Suprapunerea celor două îți arată dacă ești pe drumul cel bun (ex: greutatea stagnează, dar talia scade = recompoziție corporală).
+Modul de Comparare Foto: Un slider "Before & After" unde poți selecta două date diferite pentru a vedea evoluția vizuală.
+
+
+	Functionalitati: 
+
+-Status Indicator: Un mic text care să calculeze automat media greutății pe ultimele 7/14 zile
+-Delta Score: Afișează instant diferența față de media etapei anterioare.
+
+   Exemplu: Media Etapa 1: 85.2kg vs Media Etapa 2: 84.5kg -> Result: -0.7kg (Deficit confirmat).
+   
+-Side-by-Side Photos: Îți pune automat poza de "Front" din prima zi a etapei lângă poza de "Front" din ultima zi.
+
+-Kcal Correlation: Un mic grafic care îți arată media de calorii consumate în acele 14 zile raportată la evoluția taliei.
+
+	Salvare: 
+	Când închizi aplicația, salvezi lista de obiecte într-un fișier .json.
+	Încărcare: Când o deschizi, citești fișierul. E mult mai rapid de implementat decât SQL pentru un MVP.
+	UI: Folosește un ItemsControl sau un DataGrid în WPF pentru a vedea istoricul, dar pune accent pe un Card mare în Dashboard care să îți zică: "Ești în ziua 9 din 14 a Etapei 3. Media actuală: 82kg".

@@ -1,0 +1,81 @@
+﻿<Window x:Class="ForgeProgress.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ForgeProgress"
+        mc:Ignorable="d"
+        Title="ForgeProgress" Height="400" Width="500">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        
+
+
+        <StackPanel Margin="10" Grid.Column="0">
+            <Grid Margin="0 0 0 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" Text="Greutate" />
+                <TextBox Grid.Column="1" Text="{Binding BodyWeight }" Width="80"/>
+            </Grid>
+
+            <Grid Margin="0 0 0 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" Text="Total kcal" />
+                <TextBox Grid.Column="1" Text="{Binding TotalCalories }" Width="80"/>
+            </Grid>
+            
+            <Grid Margin="0 0 0 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" Text="Proteina" />
+                <TextBox Grid.Column="1" Text="{Binding Protein }" Width="80"/>
+            </Grid>
+
+            <Grid Margin="0 0 0 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" Text="Carbs" />
+                <TextBox Grid.Column="1" Text="{Binding Carbohydrates }" Width="80"/>
+            </Grid>
+
+            <Grid Margin="0 0 0 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" Text="Grasimi" />
+                <TextBox Grid.Column="1" Text="{Binding Fats }" Width="80"/>
+            </Grid>
+
+            <Button Content="Adauga"
+                Command="{Binding }"
+                Width="120"
+                Margin="0 10 0 0"/>
+        </StackPanel>
+        
+        <StackPanel Grid.Column="1">
+            <ListBox ItemsSource="{Binding Persoane}"
+                 SelectedItem="{Binding PersoanaSelectata}"
+                 DisplayMemberPath="Name"
+                 Height="150"
+                 Margin="10"/>
+
+            <Button Content="Adauga persoana"
+                Command="{Binding AdaugaPersoanaCommand}"
+                Width="200"/>
+        </StackPanel>
+    </Grid>
+</Window>

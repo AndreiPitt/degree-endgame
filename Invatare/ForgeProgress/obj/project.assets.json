@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gf0sg\\Desktop\\ForgeProgress\\ForgeProgress.csproj",
+      "projectUniqueName": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\Invatare\\ForgeProgress\\ForgeProgress.csproj",
       "projectName": "ForgeProgress",
-      "projectPath": "C:\\Users\\gf0sg\\Desktop\\ForgeProgress\\ForgeProgress.csproj",
+      "projectPath": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\Invatare\\ForgeProgress\\ForgeProgress.csproj",
       "packagesPath": "C:\\Users\\gf0sg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gf0sg\\Desktop\\ForgeProgress\\obj\\",
+      "outputPath": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\Invatare\\ForgeProgress\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
