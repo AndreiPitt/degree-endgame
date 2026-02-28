@@ -33,7 +33,10 @@ namespace ForgeProgress.Services
         }
 
         public void Save(List<DailyIntake> entries) {
-            string jsonString = JsonSerializer.Serialize(entries);
+            string jsonString = JsonSerializer.Serialize(entries, new JsonSerializerOptions
+            {
+                WriteIndented = true
+            });
             File.WriteAllText(FilePath, jsonString);
         }
     }

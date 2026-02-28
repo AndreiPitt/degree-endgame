@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ForgeProgress"
         mc:Ignorable="d"
-        Title="ForgeProgress" Height="400" Width="500">
+        Title="ForgeProgress" Height="400" Width="700">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
@@ -79,12 +79,35 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
-            <ListBox Grid.Row="0" 
-                 ItemsSource="{Binding Entries}"
-                 SelectedItem="{Binding SelectedEntry}"
-                 DisplayMemberPath="TotalCalories"
-                 Height="auto"
-                 Margin="10"/>
+            <ListView ItemsSource="{Binding Entries}" Grid.Row="0" Margin="10">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Data" 
+                            DisplayMemberBinding="{Binding Date, StringFormat='dd.MM.yyyy'}" 
+                            Width="70"/>
+
+                        <GridViewColumn Header="Greutate (kg)" 
+                            DisplayMemberBinding="{Binding BodyWeight}" 
+                            Width="70"/>
+
+                        <GridViewColumn Header="Proteine (g)" 
+                            DisplayMemberBinding="{Binding Protein}" 
+                            Width="70"/>
+
+                        <GridViewColumn Header="Grăsimi (g)" 
+                            DisplayMemberBinding="{Binding Fats}" 
+                            Width="70"/>
+
+                        <GridViewColumn Header="Carbo (g)" 
+                            DisplayMemberBinding="{Binding Carbohydrates}" 
+                            Width="70"/>
+
+                        <GridViewColumn Header="Total Calorii" 
+                            DisplayMemberBinding="{Binding TotalCalories}" 
+                            Width="80"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
 
             <Grid Grid.Row="1" 
                 Margin="0 0 0 10">
