@@ -7,8 +7,9 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using static System.Net.Mime.MediaTypeNames;
 using System.DirectoryServices;
+using ForgeProgress.Models;
 
-namespace ForgeProgress.Models
+namespace ForgeProgress.Services
 {
     class ProgressRepository
     {

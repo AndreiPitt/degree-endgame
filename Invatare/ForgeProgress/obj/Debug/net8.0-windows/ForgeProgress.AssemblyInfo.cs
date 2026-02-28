@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ForgeProgress")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf99543d0d0c089638d2ed9f43488fa9918fe853")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f80655fd8f5b43cc1f4bc370a868027e61aaf665")]
 [assembly: System.Reflection.AssemblyProductAttribute("ForgeProgress")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ForgeProgress")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

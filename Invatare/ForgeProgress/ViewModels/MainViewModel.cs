@@ -1,5 +1,6 @@
 ﻿using ForgeProgress.Commands;
 using ForgeProgress.Models;
+using ForgeProgress.Services;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -15,10 +16,10 @@ namespace ForgeProgress.ViewModels
 {
     class MainViewModel : INotifyPropertyChanged
     {
-        private string _pathFile = "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\Invatare\\ForgeProgress\\progress.json";
-        private DailyIntake _selectedEntry;
+        private string _pathFile = "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\Invatare\\ForgeProgress\\Services\\db.json";
+        private DailyIntakeViewModel _selectedEntry;
         private DailyIntakeViewModel _currentEntry;
-        public ObservableCollection<DailyIntake> Entries { get; set; }
+        public ObservableCollection<DailyIntakeViewModel> Entries { get; set; }
         public DailyIntakeViewModel CurrentEntry
         {
             get => _currentEntry;
@@ -30,7 +31,7 @@ namespace ForgeProgress.ViewModels
         }
 
 
-        public DailyIntake SelectedEntry
+        public DailyIntakeViewModel SelectedEntry
         {
             get => _selectedEntry;
             set
@@ -43,25 +44,31 @@ namespace ForgeProgress.ViewModels
         public MainViewModel()
         {
             ProgressRepository repo = new ProgressRepository(_pathFile);
-            Entries = new ObservableCollection<DailyIntake>(repo.Load());
-            CurrentEntry = new DailyIntakeViewModel(new DailyIntake { BodyWeight = 58.5, Protein = 130.0, Fats = 60, Carbohydrates = 250, TotalCalories = 2150, Date = DateTime.Now });
+            Entries = new ObservableCollection<DailyIntakeViewModel>(
+                repo.Load().Select(e => new DailyIntakeViewModel(e))
+            );
+            CurrentEntry = new DailyIntakeViewModel(
+                new DailyIntake{ Date = DateTime.Today }
+            );
 
             AddEntryCommand = new RelayCommand(o =>
             {
-                Entries.Add(new DailyIntake {BodyWeight = CurrentEntry.BodyWeight,
+                Entries.Add(new DailyIntakeViewModel(new DailyIntake 
+                                            {BodyWeight = CurrentEntry.BodyWeight,
                                              Date = CurrentEntry.Date,
                                              TotalCalories = CurrentEntry.TotalCalories,
                                              Protein = CurrentEntry.Protein,
                                              Carbohydrates= CurrentEntry.Carbohydrates,
-                                             Fats= CurrentEntry.Fats,                                    
-                });
-                CurrentEntry = new DailyIntakeViewModel(new DailyIntake { BodyWeight = 0, Protein = 0, Fats = 0, Carbohydrates = 0, TotalCalories = 0, Date = DateTime.Today });
-                OnPropertyChanged(nameof(CurrentEntry));
+                                             Fats= CurrentEntry.Fats }
+                ));
+                CurrentEntry = new DailyIntakeViewModel(
+                    new DailyIntake { Date = DateTime.Today }
+                );
             });
 
             SaveCommand = new RelayCommand(o =>
             {
-                repo.Save(Entries.ToList());
+                repo.Save(Entries.Select(vm => vm.DayIntake).ToList());
 
             });
         }
