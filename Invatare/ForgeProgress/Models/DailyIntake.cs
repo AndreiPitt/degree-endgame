@@ -8,16 +8,11 @@ namespace ForgeProgress.Models
 {
     class DailyIntake
     {
-        private double _bodyWeight;
-        private double _protein;
-        private double _fats;
-        private double _carbohydrates;
-        private double _totalCalories;
-
+        public DateTime Date { get; set; }
         public double BodyWeight { get; set; }
-        public int Protein { get; set; }
-        public int Fats { get; set; }
-        public int Carbohydrates { get; set; }
+        public double Protein { get; set; }
+        public double Fats { get; set; }
+        public double Carbohydrates { get; set; }
         public double TotalCalories { get; set; }
 
     }

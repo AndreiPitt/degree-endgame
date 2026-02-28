@@ -32,6 +32,16 @@ namespace ForgeProgress.ViewModels
         
         }
 
+        public DateTime Date 
+        {
+            get => DateTime.Now;
+            set 
+            {
+                _dayIntake.Date = value;
+                OnPropertyChanged(nameof(Date));
+            }
+        }
+
         public double BodyWeight
         {
             get => _dayIntake.BodyWeight;
@@ -46,7 +56,7 @@ namespace ForgeProgress.ViewModels
             }
         }
 
-        public int Protein
+        public double Protein
         {
             get => _dayIntake.Protein;
             set
@@ -60,7 +70,7 @@ namespace ForgeProgress.ViewModels
             }
         }
 
-        public int Fats
+        public double Fats
         {
             get => _dayIntake.Fats;
             set
@@ -74,7 +84,7 @@ namespace ForgeProgress.ViewModels
             }
         }
 
-        public int Carbohydrates
+        public double Carbohydrates
         {
             get => _dayIntake.Carbohydrates;
             set
