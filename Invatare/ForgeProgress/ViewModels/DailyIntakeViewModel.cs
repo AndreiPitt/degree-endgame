@@ -12,10 +12,6 @@ namespace ForgeProgress.ViewModels
     {
         private DailyIntake _dayIntake;
 
-        public event PropertyChangedEventHandler PropertyChanged;
-        private void OnPropertyChanged(string propertyName)
-            => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-
         public DailyIntake DayIntake
         {
             get => _dayIntake;
@@ -26,15 +22,9 @@ namespace ForgeProgress.ViewModels
             }
         }
 
-        public DailyIntakeViewModel() 
-        {
-            _dayIntake = new DailyIntake();
-        
-        }
-
         public DateTime Date 
         {
-            get => DateTime.Now;
+            get => _dayIntake.Date;
             set 
             {
                 _dayIntake.Date = value;
@@ -112,6 +102,15 @@ namespace ForgeProgress.ViewModels
             }
         }
 
+        // Constructor
+        public DailyIntakeViewModel(DailyIntake entry)
+        {
+            DayIntake = entry;
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        private void OnPropertyChanged(string propertyName)
+            => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
 
 
     }

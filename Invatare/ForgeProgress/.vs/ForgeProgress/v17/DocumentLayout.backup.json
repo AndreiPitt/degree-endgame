@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\Invatare\\ForgeProgress\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{02CFC852-D948-49F8-A8CA-B094A86B4855}|ForgeProgress.csproj|c:\\users\\gf0sg\\desktop\\licenta\\sharp\\degree-endgame\\invatare\\forgeprogress\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{02CFC852-D948-49F8-A8CA-B094A86B4855}|ForgeProgress.csproj|solutionrelative:views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{02CFC852-D948-49F8-A8CA-B094A86B4855}|ForgeProgress.csproj|c:\\users\\gf0sg\\desktop\\licenta\\sharp\\degree-endgame\\invatare\\forgeprogress\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02CFC852-D948-49F8-A8CA-B094A86B4855}|ForgeProgress.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02CFC852-D948-49F8-A8CA-B094A86B4855}|ForgeProgress.csproj|c:\\users\\gf0sg\\desktop\\licenta\\sharp\\degree-endgame\\invatare\\forgeprogress\\models\\progressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{02CFC852-D948-49F8-A8CA-B094A86B4855}|ForgeProgress.csproj|solutionrelative:models\\dailyintake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02CFC852-D948-49F8-A8CA-B094A86B4855}|ForgeProgress.csproj|c:\\users\\gf0sg\\desktop\\licenta\\sharp\\degree-endgame\\invatare\\forgeprogress\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02CFC852-D948-49F8-A8CA-B094A86B4855}|ForgeProgress.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02CFC852-D948-49F8-A8CA-B094A86B4855}|ForgeProgress.csproj|c:\\users\\gf0sg\\desktop\\licenta\\sharp\\degree-endgame\\invatare\\forgeprogress\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02CFC852-D948-49F8-A8CA-B094A86B4855}|ForgeProgress.csproj|solutionrelative:views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02CFC852-D948-49F8-A8CA-B094A86B4855}|ForgeProgress.csproj|c:\\users\\gf0sg\\desktop\\licenta\\sharp\\degree-endgame\\invatare\\forgeprogress\\viewmodels\\dailyintakeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,53 +34,14 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProgressRepository.cs",
-              "DocumentMoniker": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\Invatare\\ForgeProgress\\Models\\ProgressRepository.cs",
-              "RelativeDocumentMoniker": "Models\\ProgressRepository.cs",
-              "ToolTip": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\Invatare\\ForgeProgress\\Models\\ProgressRepository.cs",
-              "RelativeToolTip": "Models\\ProgressRepository.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwB0AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T05:14:06.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\Invatare\\ForgeProgress\\ViewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
-              "ToolTip": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\Invatare\\ForgeProgress\\ViewModels\\MainViewModel.cs",
-              "RelativeToolTip": "ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T05:13:34.968Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\Invatare\\ForgeProgress\\Views\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Views\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\Invatare\\ForgeProgress\\Views\\MainWindow.xaml",
               "RelativeToolTip": "Views\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-27T18:16:46.394Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DailyIntakeViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\Invatare\\ForgeProgress\\ViewModels\\DailyIntakeViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\DailyIntakeViewModel.cs",
-              "ToolTip": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\Invatare\\ForgeProgress\\ViewModels\\DailyIntakeViewModel.cs",
-              "RelativeToolTip": "ViewModels\\DailyIntakeViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAYwHEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T17:46:03.927Z",
+              "WhenOpened": "2026-02-28T10:47:31.685Z",
               "EditorCaption": ""
             },
             {
@@ -91,9 +52,48 @@
               "RelativeDocumentMoniker": "Models\\DailyIntake.cs",
               "ToolTip": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\Invatare\\ForgeProgress\\Models\\DailyIntake.cs",
               "RelativeToolTip": "Models\\DailyIntake.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T17:44:32.664Z",
+              "WhenOpened": "2026-02-28T10:45:53.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\Invatare\\ForgeProgress\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\Invatare\\ForgeProgress\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAcwCQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T05:13:34.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProgressRepository.cs",
+              "DocumentMoniker": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\Invatare\\ForgeProgress\\Models\\ProgressRepository.cs",
+              "RelativeDocumentMoniker": "Models\\ProgressRepository.cs",
+              "ToolTip": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\Invatare\\ForgeProgress\\Models\\ProgressRepository.cs",
+              "RelativeToolTip": "Models\\ProgressRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T10:48:58.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DailyIntakeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\Invatare\\ForgeProgress\\ViewModels\\DailyIntakeViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\DailyIntakeViewModel.cs",
+              "ToolTip": "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\Invatare\\ForgeProgress\\ViewModels\\DailyIntakeViewModel.cs",
+              "RelativeToolTip": "ViewModels\\DailyIntakeViewModel.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAUwGQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T17:46:03.927Z",
               "EditorCaption": ""
             }
           ]

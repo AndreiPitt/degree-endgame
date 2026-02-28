@@ -20,7 +20,7 @@ namespace ForgeProgress
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = new DailyIntakeViewModel();
+            DataContext = new MainViewModel();
         }
     }
 }
