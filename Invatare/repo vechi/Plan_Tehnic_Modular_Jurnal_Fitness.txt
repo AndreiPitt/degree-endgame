@@ -1,0 +1,144 @@
+⚙️ PLAN TEHNIC MODULAR — JURNAL FITNESS (C# + WPF)
+
+Proiect: KineTrack (Aplicație de evidență și analiză fitness, bazată pe date obiective)
+Scop: Sistem de tracking și analiză fără factori subiectivi, pentru auto-evaluare obiectivă.
+
+------------------------------------------------------------
+🧩 MODUL 1 — TRACKING OBIECTIV 100%
+------------------------------------------------------------
+🎯 Scop: Înregistrarea exactă a datelor de antrenament (fără input subiectiv).
+
+🔹 Clase implicate:
+class SetAntrenament
+{
+    public string NumeExercitiu { get; set; }
+    public double GreutateKg { get; set; }
+    public int Repetari { get; set; }
+    public double Volum => GreutateKg * Repetari;
+}
+
+class InregistrareZilnica
+{
+    public DateTime Data { get; set; }
+    public double GreutateCorporala { get; set; }
+    public int Calorii { get; set; }
+    public string ActivitateFizica { get; set; }
+    public List<SetAntrenament> Seturi { get; set; } = new();
+}
+
+🔹 Persistență JSON:
+- Salvare/Încărcare în fișier local ("antrenamente.json")
+- Clase ajutătoare: `DataManager` cu metode `Save()` și `Load()`
+
+🔹 UI WPF:
+- Form principal cu DataGrid pentru listă zile + butoane CRUD
+- Fereastră secundară pentru introducerea seturilor
+
+------------------------------------------------------------
+📈 MODUL 2 — PROGRESS DELTA (Analiză comparativă)
+------------------------------------------------------------
+🎯 Scop: Compararea progresului între perioade (ex: săptămână curentă vs. precedentă).
+
+🔹 Clasă: AnalizatorProgres
+Metode:
+- double CalculeazaVolumSaptamana(List<InregistrareZilnica> saptamana)
+- double CalculeazaDeltaVolum()
+- double CalculeazaDeltaGreutateCorporala()
+- double CalculeazaDelta1RM()
+
+🔹 Logica:
+- Grupare automată a înregistrărilor pe săptămâni (LINQ + DateTime)
+- Calcul procentual: ((ValoareCurenta - ValoareAnterioara) / ValoareAnterioara) * 100
+- Afișare rezultate în UI (label sau mini-grafic)
+
+------------------------------------------------------------
+🛡️ MODUL 3 — DEVIATION GUARD (Validarea anomaliilor)
+------------------------------------------------------------
+🎯 Scop: Detectarea automată a erorilor de introducere (date improbabile).
+
+🔹 Clasă: ValidatorIntrari
+Metode:
+- bool EsteAnomalie(SetAntrenament set, List<SetAntrenament> istoric)
+- double MediaGreutateExercitiu(string numeEx)
+- double PragMaximAcceptat(double media)
+
+🔹 Logica:
+- Dacă greutate > media istorică + 25% → avertisment vizual
+- Dacă repetări > 100 → blocare introducere
+- Afișare culoare roșie/galbenă în DataGrid (DataTemplate + Triggers)
+
+------------------------------------------------------------
+🧠 MODUL 4 — FATIGUE INDEX (Scor de oboseală)
+------------------------------------------------------------
+🎯 Scop: Estimarea obiectivă a gradului de oboseală din ultimele 7 zile.
+
+🔹 Clasă: AnalizatorOboseala
+Metode:
+- double CalculeazaVolumSaptamana()
+- double CalculeazaFatigueScore()
+
+🔹 Formula propusă:
+FatigueScore = 100 - ((DeltaVolumSaptamanal / 15%) * 100)
+Ex: dacă volumul crește cu 20%, scorul = 100 - (20/15)*100 = 86.6
+
+🔹 Interpretare:
+- Verde: 80–100 (normal)
+- Galben: 60–80 (atenție)
+- Roșu: <60 (risc suprasolicitare)
+
+🔹 UI:
+- Bară de progres colorată (ProgressBar WPF)
+- Grafic trend Fatigue Index în timp (LiveCharts2)
+
+------------------------------------------------------------
+💪 MODUL 5 — LOAD MAP (Distribuția volumului muscular)
+------------------------------------------------------------
+🎯 Scop: Afișarea echilibrului de antrenament între grupele musculare.
+
+🔹 Enum GrupaMusculara
+enum GrupaMusculara { Piept, Spate, Umeri, Brate, Picioare, Abdomen }
+
+🔹 Extindere clasă SetAntrenament:
+public GrupaMusculara Grupa { get; set; }
+
+🔹 Clasă AnalizatorVolum
+Metode:
+- Dictionary<GrupaMusculara, double> CalculeazaVolumPeGrupa(List<InregistrareZilnica> date)
+
+🔹 UI:
+- Grafic bară (bar chart) cu volumul total / grupă musculară (LiveCharts2)
+- Highlight pentru dezechilibre (bare roșii dacă diferența > 30%)
+
+------------------------------------------------------------
+🧾 PERSISTENȚĂ ȘI EXPORT
+------------------------------------------------------------
+- Salvare automată JSON la închidere
+- Export CSV (pentru Excel)
+- Export raport PDF (opțional, faza 2)
+- Clase: `ExportManager` cu metode `ExportCSV()`, `ExportJSON()`
+
+------------------------------------------------------------
+🎨 INTERFAȚĂ (WPF)
+------------------------------------------------------------
+- Fereastra principală: Dashboard + DataGrid
+- Panou lateral: Filtre / butoane Export / Setări
+- Dark Mode: prin resurse XAML dinamice
+- Componente: LiveCharts2, MahApps.Metro (pentru UI modern)
+
+------------------------------------------------------------
+📅 PLAN DE LUCRU ESTIMAT (1 an, part-time)
+------------------------------------------------------------
+Luna 1-2 → Fundamente C# + OOP + JSON  
+Luna 3-4 → WPF CRUD + DataGrid  
+Luna 5-6 → AnalizatorProgres + ValidatorIntrari  
+Luna 7-8 → Fatigue Index + Load Map + grafice  
+Luna 9-10 → Exporturi + UX îmbunătățit  
+Luna 11-12 → Optimizare + bugfix + documentare MVP
+
+------------------------------------------------------------
+✅ CONCLUZIE
+------------------------------------------------------------
+Cu aceste 5 module:
+- Aplicația are valoare practică reală și diferențiator clar.  
+- Se bazează exclusiv pe date obiective.  
+- Este complet fezabilă pentru un dezvoltator solo în 12 luni.  

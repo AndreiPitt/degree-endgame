@@ -1,0 +1,119 @@
+🗒️ LISTĂ FUNCȚIONALITĂȚI — JURNAL FITNESS / C# & WPF
+
+------------------------------------------------------------
+🧩 FUNDAMENTUL DATELOR (MODEL DE DATE)
+------------------------------------------------------------
+✅ Clase principale:
+- SetAntrenament: NumeExercițiu, Greutate (kg), Repetări (Reps)
+- InregistrareZilnica: Dată, GreutateCorporală, Calorii, ActivitateFizică
+- Relație: InregistrareZilnica conține o listă de SetAntrenament
+
+------------------------------------------------------------
+💾 PERSISTENȚĂ (SALVARE / ÎNCĂRCARE)
+------------------------------------------------------------
+- Salvare/încărcare date în JSON (ex: “antrenamente.json”)
+- Butoane “Salvează” și “Încarcă”
+- Auto-salvare la închidere aplicație
+
+------------------------------------------------------------
+🧰 INTERFAȚĂ DE BAZĂ (WPF)
+------------------------------------------------------------
+- Form de introducere pentru exerciții și seturi
+- Câmpuri pentru greutate corporală, calorii, activitate
+- DataGrid pentru listă de înregistrări
+- Butoane CRUD: Adaugă / Editează / Șterge
+
+------------------------------------------------------------
+📊 ANALIZĂ DE BAZĂ
+------------------------------------------------------------
+- Volum Total (Greutate * Repetări * Seturi)
+- Media volumului săptămânal
+- Estimare 1RM (formula Epley)
+- Progres pe exercițiu (grafic simplu în timp)
+
+------------------------------------------------------------
+🧭 FILTRARE & ORGANIZARE
+------------------------------------------------------------
+- Filtru după dată / exercițiu
+- Sortare crescătoare / descrescătoare
+- Căutare după nume exercițiu
+
+------------------------------------------------------------
+💡 MANAGEMENT EXERCIȚII
+------------------------------------------------------------
+- Listă “Master” de exerciții (pentru consistență)
+- Adăugare / editare / ștergere exercițiu
+- Autocompletare la logare set (combobox)
+
+
+------------------------------------------------------------
+📤 EXPORT
+------------------------------------------------------------
+- Export date în CSV (pentru Excel)
+- Export date în JSON (backup)
+- Export raport săptămânal în PDF (sumar volum, progres)
+✔️ CSV/JSON: Da | PDF: Mai târziu
+
+------------------------------------------------------------
+🧠 ANALIZE AVANSATE
+------------------------------------------------------------
+- Detectare anomalii (seturi improbabile)
+- Volum total pe grupă musculară
+- Evoluție 1RM în timp
+- Scor oboseală (bazat pe volum + calorii recente)
+✔️ Parțial (calcule simple)
+
+------------------------------------------------------------
+📈 VIZUALIZARE
+------------------------------------------------------------
+- Grafic volum total / săptămână
+- Grafic progres greutate corporală
+- Grafic progres 1RM per exercițiu
+- Dashboard rezumat
+✔️ Posibil ca începător: Da (LiveCharts2)
+
+------------------------------------------------------------
+🧩 MICRO CICLURI
+------------------------------------------------------------
+- Grupare automată a înregistrărilor (7 zile)
+- Calcul volum mediu / microciclu
+- Sumar final la încheierea unui ciclu
+✔️ Posibil ca începător: Parțial
+
+------------------------------------------------------------
+🧾 RAPOARTE & EXPORT ANALIZĂ
+------------------------------------------------------------
+- Raport PDF cu sinteza progresului
+- Export raport pentru antrenor (CSV/PDF)
+✔️ CSV: Da | PDF: Mai târziu
+
+------------------------------------------------------------
+☁️ EVOLUȚII POSIBILE (VERSIUNI VIITOARE)
+------------------------------------------------------------
+- Sincronizare cloud (cont utilizator)
+- API (backend ASP.NET Core)
+- Aplicație mobilă companion (MAUI / Flutter)
+- Machine Learning (predicții performanță)
+- Detecție exercițiu automată (cu senzori / cameră)
+- “Overload risk” predictor
+❌ Posibil ca începător: Nu încă
+
+------------------------------------------------------------
+🎨 UX / INTERFAȚĂ MODERNĂ
+------------------------------------------------------------
+- Temă Dark Mode
+- Layout responsive
+- Pictograme moderne (Material Design)
+- Ecran Dashboard principal
+✔️ Posibil ca începător: Da (cu ghid)
+
+------------------------------------------------------------
+✅ CONCLUZIE (CE POȚI REALIZA ÎNTR-UN AN)
+------------------------------------------------------------
+- Model date + JSON + CRUD ✅
+- UI + DataGrid ✅
+- Analize simple + grafice ✅
+- Export CSV/JSON ✅
+- Dashboard / Microciclu ⚙️ Parțial
+- PDF / Anomalie detection ⚙️ Parțial
+- Cloud / ML / mobil ❌ Nu încă

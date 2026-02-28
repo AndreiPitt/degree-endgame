@@ -1,0 +1,106 @@
+De facut: 
+- ProgressTracker: o clasă care face rapoarte (volum săptămânal, volum pe grupă, trenduri procentuale).
+📊 Exemplu: Presă la piept
+Săptămâna 1
+- 3 serii × 20 kg × 12 rep
+- Volum brut = 3 × 20 × 12 = 720
+- e1RM (Epley) = 20 × (1 + 0.0333 × 12) ≈ 28 kg
+
+Săptămâna 2
+- 3 serii × 22 kg × 8 rep
+- Volum brut = 3 × 22 × 8 = 528 (pare mai mic)
+- e1RM = 22 × (1 + 0.0333 × 8) ≈ 28 kg
+👉 Volumul scade, dar intensitatea crește (ai ridicat mai greu).
+
+Săptămâna 3
+- 3 serii × 22 kg × 10 rep
+- Volum brut = 3 × 22 × 10 = 660
+- e1RM = 22 × (1 + 0.0333 × 10) ≈ 29.3 kg
+👉 Volumul urcă din nou, iar e1RM e mai mare decât în săptămâna 1.
+
+Săptămâna 4
+- 3 serii × 22 kg × 12 rep
+- Volum brut = 3 × 22 × 12 = 792
+- e1RM = 22 × (1 + 0.0333 × 12) ≈ 30.8 kg
+👉 Acum ai și volum mai mare decât în săptămâna 1, și intensitate mai mare.
+
+🔎 Interpretare
+- Dacă te uiți doar la volum brut, săptămâna 2 pare regres.
+- Dacă te uiți la trendul pe 4 săptămâni, vezi clar progres:
+- Volum: 720 → 528 → 660 → 792
+- e1RM: 28 → 28 → 29.3 → 30.8
+👉 Concluzia: progresul real se vede pe ciclu (4–6 săptămâni), nu comparând doar două săptămâni consecutive.
+
+✅ Cum tragi concluzii
+- Calculează volumul săptămânal pentru fiecare exercițiu.
+- Calculează e1RM pentru seturile principale.
+- Compară trendul pe 4–6 săptămâni, nu doar săptămână la săptămână.
+- Dacă volumul și/sau e1RM cresc cu 5–10% pe ciclu, e progres sănătos.
+
+
+📊 Exemplu: Presă la piept (zi de Push)
+| Săptămâna | Seturi (greutate × rep) | Volum total (kg) | e1RM maxim (kg) | Stimulus total (aprox) | 
+| 1 | 3 × 20 × 12  | 720  | 28 | 514 | 
+| 2 | 3 × 22 × 8 | 528 | 28 | 554 | 
+| 3 | 3 × 22 × 10 | 660 | 29.3 | 497 | 
+| 4 | 3 × 22 × 12 | 792 | 30.8 | 565 | 
+
+
+
+	 Cum interpretezi
+🔎 Pasul 1 – Analiza volumului săptămânal
+- Săptămâna 1 → 720
+- Săptămâna 4 → 792 (+10%)
+
+- Săpt. 1 → 720
+- Săpt. 2 → 528 (-27% față de săpt. 1)
+- Săpt. 3 → 660 (+25% față de săpt. 2)
+- Săpt. 4 → 792 (+20% față de săpt. 3)
+👉 Observație: creșteri de 20–25% sunt destul de mari. Regula generală spune că o creștere sigură e 5–10% pe săptămână. Aici ai fluctuații mari → semn că, dacă le menții multe săptămâni, riști suprasolicitare.
+
+
+🔎 Pasul 2 – Analiza e1R
+- Săptămâna 1 → 28
+- Săptămâna 4 → 30.8 (+10%)
+
+• 	Săpt. 1 → 28
+• 	Săpt. 2 → 28 (stagnare)
+• 	Săpt. 3 → 29.3 (+4.6%)
+• 	Săpt. 4 → 30.8 (+5%)
+👉 e1RM crește constant → semn bun, forța se dezvoltă.
+👉 Dacă ar fi scăzut în timp ce volumul urca, ar fi fost un semnal de oboseală
+👉 Creștere clară în forță.
+🔎 Pasul 3 – Analiza stimulusulu
+- Săptămâna 2 are volum mai mic, dar stimulus mai mare (554 vs 514).
+👉 Asta arată că antrenamentul a fost mai intens, chiar dacă ai mutat mai puține kilograme.
+- Săptămâna 4 are și volum, și stimulus, și e1RM mai mari → progres complet.
+- Stimulusul rămâne relativ stabil (514 → 554 → 497 → 565).
+👉 Asta arată că, deși volumul a fluctuat, calitatea seturilor a rămas ridicată.
+👉 Dacă stimulusul ar fi scăzut constant, ar fi fost semn de suprasolicitare.
+
+🧭 Interpretare finală
+- Săpt. 2: volum mai mic, dar stimulus mai mare → fază de intensificare, normal.
+- Săpt. 3 și 4: creșteri mari de volum (+25%, +20%) → progres rapid, dar și risc de suprasolicitare dacă trendul continuă.
+- e1RM: crește → corpul răspunde bine, încă nu e suprasolicitare.
+👉 Concluzie:
+Nu e suprasolicitare încă, dar ritmul de creștere a volumului e cam agresiv. Dacă menții +20% săptămânal, în 2–3 săptămâni vei depăși capacitatea de recuperare. Ideal ar fi să menții creșterea volumului la 5–10% pe săptămână și să introduci o săptămână de deload (scădere de volum cu 30–40%) după 4–6 săptămâni.
+
+
+
+🧭 Cum integrezi datele în aplicația ta
+- La nivel de TrainingSet: calculezi pentru fiecare set → volum set, e1RM set, stimulus set.
+- La nivel de Workout: agregi → volum total, stimulus total (suma stimulilor seturilor), e1RM maxim (cel mai mare dintre seturi).
+- La nivel de săptămână: aduni volumele și stimulii tuturor antrenamentelor din acea săptămână.
+- La nivel de ciclu (4–6 săptămâni): compari media sau totalul săptămânal cu perioada anterioară.
+
+📈 Cum tragi concluzii
+- Dacă volumul săptămânal crește cu 5–10% → progres pentru masă musculară.
+- Dacă e1RM maxim crește → progres pentru forță.
+- Dacă stimulusul total crește → progres în calitatea antrenamentului.
+- Dacă volumul scade dar stimulusul și e1RM cresc → progres direcționat spre forță.
+- Dacă toate scad → probabil deload sau oboseală acumulată.
+
+👉 Practic, tu vei compara ziua de Push din săptămâna asta cu ziua de Push din săptămâna trecută pe aceste 3 axe. Trendul pe 4–6 săptămâni îți arată imaginea reală.
+
+Vrei să-ți arăt și cum ar arăta un raport săptămânal complet pe toate grupele musculare (Push, Pull, Legs) ca să vezi imaginea globală, nu doar pe un exercițiu?
+

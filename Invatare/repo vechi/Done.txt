@@ -1,0 +1,30 @@
+
+🎯 Scop: Înregistrarea exactă a datelor de antrenament.
+
+Clase principale:
+🧰 TrainingSet class: 
+	NumeExercițiu, Greutate (kg), Repetări (Reps) 
+	Volum_Ex(Kg), Grupa_targhetata 
+	
+🧩 Metode:
+ 🔹Cateva functii de validare: nume, greutate, repetari
+ 🔹Cateva functii de get si set pentru acces la variabilele obiectelor:
+(nume, greutate, reptari volumul_ex, grupa_targhetata)
+ 🔹Functie de calcul pentru volum_ex: void ComputeVolume()
+ 
+🧰Workout class:
+	Data, Lista(seturi) , Dictionar(Grupe_targhetate),
+	Volum_total(Kg)
+🧩 Metode:
+ 🔹Cateva functii de get pentru acces la variabilele obiectelor:
+(data, seturi, volumul_total, volumul_pe_fiecare_grupa)
+ 🔹Functie importante: 
+ 	AddSet - Adauga un set in lista cu exercitii din antrenament
+		  - Adauga volumul acelui set la volumul total al antrenamentului
+		  - Adauga grupa lucrata in dictionarul cu grupe (unde se salveaza
+numele grupei lucrate si volumul acelei grupe)
+	RemoveSetAt: - Cauta indexul acelui set in lista si sterge setul din lista cu seturi,
+		        - Verifica daca mai sunt seturi care targheteaza aceasi grupa: daca exista scoate 
+scoate doar volumul asignat acelei grupe, daca nu exista sterge acel rand cu totul)
+
+
