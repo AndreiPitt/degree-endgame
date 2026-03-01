@@ -1,11 +1,11 @@
 	1. Tabloul de bord (Dashboard)
 Aceasta este inima aplicației. În loc de tabele din în Excel:
 
--Quick Entry: Un formular mic pentru greutatea de azi și kcal din Eat&Track.
--Smart Date: Un DatePicker care se pune automat pe ziua de azi, dar care îți permite să treci datele și dacă ai uitat să le pui ieri.
--Buton de Salvare: Care să valideze datele (să nu fie text în loc de cifre) și să le scrie în fișierul JSON.
+-Quick Entry: Un formular mic pentru greutatea de azi și kcal din Eat&Track. (facut)
+-Smart Date: Un DatePicker care se pune automat pe ziua de azi, dar care îți permite să treci datele și dacă ai uitat să le pui ieri. (facut)
+-Buton de Salvare: Care să valideze datele (să nu fie text în loc de cifre) și să le scrie în fișierul JSON. (facut)
 
--Câmpuri pentru măsurători: Input dedicat pentru talie.
+-Câmpuri pentru măsurători: Input dedicat pentru talie.  (facut)
 -Uploader Foto: Trei sloturi (Față, Spate, Profil) care să salveze pozele într-un folder local cu data în nume.
 
 

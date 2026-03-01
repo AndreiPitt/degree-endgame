@@ -19,9 +19,12 @@ namespace ForgeProgress.ViewModels
         private string _pathDailyFile = "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\Invatare\\ForgeProgress\\Services\\daily.json";
         private string _pathMeasurementsFile = "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\Invatare\\ForgeProgress\\Services\\measurements.json";        
         
-        private DailyIntakeViewModel _selectedEntry;
         private DailyIntakeViewModel _currentEntry;
         private MeasurementsViewModel _currentMeasurement;
+
+        //private DailyIntakeViewModel _selectedEntry;
+
+        #region Properties
         public ObservableCollection<DailyIntakeViewModel> Entries { get; set; }
         public ObservableCollection<MeasurementsViewModel> Measurements { get; set; }
         public DailyIntakeViewModel CurrentEntry
@@ -44,6 +47,7 @@ namespace ForgeProgress.ViewModels
             }
         }
 
+        /*
         public DailyIntakeViewModel SelectedEntry
         {
             get => _selectedEntry;
@@ -53,6 +57,8 @@ namespace ForgeProgress.ViewModels
                 OnPropertyChanged(nameof(SelectedEntry));
             }
         }
+        */
+        #endregion
 
         public MainViewModel()
         {
@@ -72,7 +78,7 @@ namespace ForgeProgress.ViewModels
             );
 
             CurrentMeasurement = new MeasurementsViewModel(
-                new Measurements {Date = DateTime.Today }
+                new Measurements {Date = CurrentEntry.Date } // vreau ca datepicker sa fie comun
             );
 
             AddEntryCommand = new RelayCommand(o =>
