@@ -1,0 +1,26 @@
+[
+  {
+    "Date": "2026-02-28T00:00:00+02:00",
+    "BodyWeight": 58.5,
+    "Protein": 130,
+    "Fats": 60,
+    "Carbohydrates": 250,
+    "TotalCalories": 2150
+  },
+  {
+    "Date": "2026-03-01T00:00:00+02:00",
+    "BodyWeight": 59.2,
+    "Protein": 142,
+    "Fats": 70,
+    "Carbohydrates": 256,
+    "TotalCalories": 2153
+  },
+  {
+    "Date": "2026-03-25T00:00:00",
+    "BodyWeight": 55,
+    "Protein": 130,
+    "Fats": 50,
+    "Carbohydrates": 260,
+    "TotalCalories": 2000
+  }
+]

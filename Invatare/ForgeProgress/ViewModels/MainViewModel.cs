@@ -16,10 +16,14 @@ namespace ForgeProgress.ViewModels
 {
     class MainViewModel : INotifyPropertyChanged
     {
-        private string _pathFile = "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\Invatare\\ForgeProgress\\Services\\db.json";
+        private string _pathDailyFile = "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\Invatare\\ForgeProgress\\Services\\daily.json";
+        private string _pathMeasurementsFile = "C:\\Users\\gf0sg\\Desktop\\Licenta\\sharp\\degree-endgame\\Invatare\\ForgeProgress\\Services\\measurements.json";        
+        
         private DailyIntakeViewModel _selectedEntry;
         private DailyIntakeViewModel _currentEntry;
+        private MeasurementsViewModel _currentMeasurement;
         public ObservableCollection<DailyIntakeViewModel> Entries { get; set; }
+        public ObservableCollection<MeasurementsViewModel> Measurements { get; set; }
         public DailyIntakeViewModel CurrentEntry
         {
             get => _currentEntry;
@@ -30,6 +34,15 @@ namespace ForgeProgress.ViewModels
             }
         }
 
+        public MeasurementsViewModel CurrentMeasurement 
+        {
+            get => _currentMeasurement;
+            set
+            {
+                _currentMeasurement = value;
+                OnPropertyChanged(nameof(CurrentMeasurement));
+            }
+        }
 
         public DailyIntakeViewModel SelectedEntry
         {
@@ -43,12 +56,23 @@ namespace ForgeProgress.ViewModels
 
         public MainViewModel()
         {
-            ProgressRepository repo = new ProgressRepository(_pathFile);
+            ProgressRepository repoDaily = new ProgressRepository(_pathDailyFile);
+            ProgressRepository repoMeasurements = new ProgressRepository(_pathMeasurementsFile);
+
             Entries = new ObservableCollection<DailyIntakeViewModel>(
-                repo.Load().Select(e => new DailyIntakeViewModel(e))
+                repoDaily.Load<DailyIntake>().Select(e => new DailyIntakeViewModel(e))
             );
+
+            Measurements = new ObservableCollection<MeasurementsViewModel>(
+                repoMeasurements.Load<Measurements>().Select(e => new MeasurementsViewModel(e))  
+            );
+
             CurrentEntry = new DailyIntakeViewModel(
                 new DailyIntake{ Date = DateTime.Today }
+            );
+
+            CurrentMeasurement = new MeasurementsViewModel(
+                new Measurements {Date = DateTime.Today }
             );
 
             AddEntryCommand = new RelayCommand(o =>
@@ -66,9 +90,22 @@ namespace ForgeProgress.ViewModels
                 );
             });
 
+            AddMeasurementCommand = new RelayCommand(o =>
+            {
+                Measurements.Add(new MeasurementsViewModel(new Measurements
+                                            { Date = CurrentEntry.Date, // Am folosit CurrentEntry in loc de CurrentMeasurement pentru ca ambele sa aibe aceasi data
+                                            WaistSizeCm = CurrentMeasurement.WaistSizeCm }
+                
+                ));
+                CurrentMeasurement = new MeasurementsViewModel(
+                    new Measurements {Date = DateTime.Today }
+                );
+            });
+
             SaveCommand = new RelayCommand(o =>
             {
-                repo.Save(Entries.Select(vm => vm.DayIntake).ToList());
+                repoDaily.Save(Entries.Select(vm => vm.DayIntake).ToList());
+                repoMeasurements.Save(Measurements.Select(vm => vm.DailyMeasurements).ToList());
 
             });
         }
@@ -79,6 +116,7 @@ namespace ForgeProgress.ViewModels
             => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
 
         public ICommand AddEntryCommand { get; }
+        public ICommand AddMeasurementCommand { get; }
         public ICommand SaveCommand { get; }
 
     }

@@ -20,23 +20,28 @@ namespace ForgeProgress.Services
             FilePath = file;
         }
 
-        public List<DailyIntake> Load() {
+        public List<T> Load<T>()
+        {
+            List<T> entries = new List<T>();
 
-            List<DailyIntake> entries = new List<DailyIntake>();
             if (File.Exists(FilePath))
             {
                 string jsonString = File.ReadAllText(FilePath);
-                entries = JsonSerializer.Deserialize<List<DailyIntake>>(jsonString);
-                return entries == null ? new List<DailyIntake>() : entries;
+                entries = JsonSerializer.Deserialize<List<T>>(jsonString);
+                return entries ?? new List<T>();
             }
-            else return entries;  
+
+            return entries;
         }
 
-        public void Save(List<DailyIntake> entries) {
+
+        public void Save<T>(List<T> entries)
+        {
             string jsonString = JsonSerializer.Serialize(entries, new JsonSerializerOptions
             {
                 WriteIndented = true
             });
+
             File.WriteAllText(FilePath, jsonString);
         }
     }
