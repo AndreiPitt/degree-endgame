@@ -36,11 +36,11 @@
 
             <StackPanel Grid.Column="1" Margin="0 5" VerticalAlignment="Center">
                 <StackPanel Orientation="Horizontal">
-                    <TextBox x:Name="TxtVoltage" Margin="5 2" Padding="80 0" />
+                    <TextBox x:Name="TxtVoltage" Margin="5 2" Width="160"/>
                     <TextBlock Margin="5 2" Text="[V]"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <TextBox x:Name="TxtCurrent" Margin="5 2" Padding="80 0" />
+                    <TextBox x:Name="TxtCurrent" Margin="5 2" Width="160"/>
                     <TextBlock Margin="5 2" Text="[A]"/>
                 </StackPanel>
                 <Button x:Name="BtnApply" Click="BtnApply_Click" Padding="5" Margin="30 5 90 0" Content="Aplică Setările" />

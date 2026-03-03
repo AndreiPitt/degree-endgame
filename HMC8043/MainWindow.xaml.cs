@@ -58,12 +58,14 @@ namespace HMC8043
             else if (RbCh2.IsChecked == true) _canal = "2";
             else if (RbCh3.IsChecked == true) _canal = "3";
             _session.FormattedIO.WriteLine($"INST OUT{_canal}");
+
             string tensiune = TxtVoltage.Text.Replace(',', '.');
             string curent = TxtCurrent.Text.Replace(',', '.');
 
             _session.FormattedIO.WriteLine($"VOLT {tensiune}");
             _session.FormattedIO.WriteLine($"CURR {curent}");
             MessageBox.Show($"Setări aplicate cu succes pe CH{_canal} ({tensiune}V, {curent}A)");
+
 
         }
 
