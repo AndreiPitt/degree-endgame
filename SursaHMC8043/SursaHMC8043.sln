@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36930.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SursaHMC8043", "SursaHMC8043.csproj", "{2074ADAD-ECAE-4A90-8BE1-294CEDE65E30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMC8043", "..\HMC8043\HMC8043.csproj", "{841415F0-87AB-4680-8E88-043D60319632}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2074ADAD-ECAE-4A90-8BE1-294CEDE65E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2074ADAD-ECAE-4A90-8BE1-294CEDE65E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2074ADAD-ECAE-4A90-8BE1-294CEDE65E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2074ADAD-ECAE-4A90-8BE1-294CEDE65E30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{841415F0-87AB-4680-8E88-043D60319632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{841415F0-87AB-4680-8E88-043D60319632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{841415F0-87AB-4680-8E88-043D60319632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{841415F0-87AB-4680-8E88-043D60319632}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1D88A89-8D59-46A4-84DF-A1ABE7996C07}
+	EndGlobalSection
+EndGlobal
