@@ -1,0 +1,60 @@
+STRUCTURA LOGICA APLICATIE UI/UX:
+
+
+-Panou de achiziție & Stare (UX vizual esențial):
+
+	Buton de Start care se schimbă vizual în Stop
+	Indicator de status text/culoare (Connected / Disconnected).
+
+-Zona principală de afișare (Graficul real-time):
+
+	Afișarea semnalului în timp real.
+
+Obs! ScottPlot sau LiveCharts2 au funcția de scalare automată pe axe (Auto-Scale) integrată by default.
+
+-Panou de configurare (Comenzile de bază):
+
+	Activare/Dezactivare canal (ex: checkbox pentru Canal 1).
+	Selectarea scalei (Volt/div și Timebase).
+	Trigger de bază (Sursă și Nivel).
+
+
+-Măsurători afișate simplu (TextBlocks pe UI):
+	Vpp (Amplitudine)
+	Frecvență.
+
+-Mesaje de eroare:
+	Un simplu pop-up (MessageBox) dacă apeși conectare și cablul USB nu e băgat.
+
+
+Arhitectura aplicației (MVVM):
+
+Model (Core / Backend):
+	SerialService -> Modul de comunicare (serial handler).
+	ProtocolParser -> Modul de protocol (interpretarea comenzilor și pachetelor).
+	AcquisitionEngine -> Modul de achiziție și procesare (managementul bufferelor, conversii).
+	MeasurementEngine -> Modul de calcule matematice automate (Vpp, Vrms, frecvență).
+	Logger -> Modul de logging (salvarea stărilor și erorilor în fișier).
+
+ViewModel (Puntea de legătură):
+	MainViewModel -> Gestionează logica UI (starea aplicației, comenzile butoanelor, legătura cu hardware-ul).
+	PlotViewModel -> Pregătește datele din AcquisitionEngine special pentru a fi desenate de librăria grafică (ScottPlot).
+
+View (Interfața UI):
+	MainWindow.xaml și alte controale vizuale (ferestre, panouri, butoane, graficul efectiv).
+
+
+ Partea teoretică din lucrare (capitole)
+
+- Introducere în osciloscoape digitale.
+- Prezentarea Cleverscope (model, specificații).
+- Descrierea protocolului serial folosit.
+- Arhitectura software propusă.
+- "Gestionarea firelor de execuție (Multithreading și Sincronizare)" : Explicatii, Scopul threadurilor: Sa fie fluid, sa nu se blocheze (un grafic care să se miște cursiv la 20 FPS în timp ce citești date de pe portul serial)
+- Principii de UI/UX aplicate.
+- Testare și validare.
+- Concluzii și posibile îmbunătățiri.
+
+
+
+
