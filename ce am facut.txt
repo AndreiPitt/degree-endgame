@@ -1,0 +1,17 @@
+	Robot:
+- Am facut xmind
+- Am facut diagrama gantt
+- Am finalizat lista de componente
+- Am refacut schema bloc
+
+	Remote control cleverscope
+Am terminat un tutorial de c# de 20 de ore
+Am terminat un tutorial de oop in c# de 4 ore
+Am exersat arhitectura mvvm si layout in wpf 15 ore
+
+- Am facut arhitectura aplicatiei
+- Am definit functionalitatile minime 
+
+
+	      
+
