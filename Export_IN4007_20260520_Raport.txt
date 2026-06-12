@@ -1,0 +1,19 @@
+==================================================
+   RAPORT TEST - IN4007
+==================================================
+Data generării: 20.05.2026 10:38:51
+Autor: Student
+
+--- INFORMAȚII COMPONENTĂ ---
+Tip Componentă: Diodă / LED
+Model: Nespecificat
+
+--- PARAMETRI EXTRAȘI ---
+Curent de test (Datasheet): 1 mA
+Vf (Tensiune Directă): 0.622 V
+Rd (Rezistență Dinamică): 2.38 Ohmi
+Pmax (Putere Disipată): 242.59 mW
+
+--- NOTE TEST ---
+Test realizat în condiții de laborator.
+-----------------

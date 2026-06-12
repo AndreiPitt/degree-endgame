@@ -1,0 +1,18 @@
+==================================================
+   RAPORT TEST - DIODA
+==================================================
+Data generării: 29.05.2026 15:44:06
+Autor: Student
+
+--- INFORMAȚII COMPONENTĂ ---
+Tip Componentă: Diodă
+Model: Dioda
+
+--- PARAMETRI EXTRAȘI ---
+Curent de test (Datasheet): 10 mA
+Vf (Tensiune Directă): 3.067 V
+Pmax (Putere Disipată): 498.00 mW
+
+--- NOTE TEST ---
+Test realizat în condiții de laborator.
+-----------------
